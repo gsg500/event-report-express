@@ -5,6 +5,8 @@ function EventsList(props) {
   return tipo.map((currenttipo) => {
     return (
     <div key={} className="list-group">
+      
+
     </div>
     );
   });

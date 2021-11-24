@@ -1,4 +1,5 @@
 import React from "react"
+import { Navbar } from "react-bootstrap"
 import Rodape from "./RodapeEventExpress"
 
 
@@ -10,7 +11,8 @@ function Home(){
     return(
 
        <div>
-           <Rodape/>
+         <Navbar/>
+         <Rodape/> 
        </div> 
         
     )
