@@ -6,20 +6,20 @@ import {Box, Container, Row, Column, FooterLink, Heading} from "./FooterStyle";
 
 function Rodape(){
 return(
-<div className="mainFooter">
-
+<div className="row">
+    <div className="col">
         <Box>
-            <h1 style={{
+            <p style={{
                 color: "white",
                 textAlign: "center",
                 marginTop: "-50px"
+                
             }}>
                 Todos os Direitos reservados.
-            </h1>
+            </p>
             <Container className="d-flex justify-content-center">
                 <Row>
-                   
-                   
+                             
                     
                     <Column>
                         <Heading>Open Souce</Heading>
@@ -30,13 +30,7 @@ return(
                                 </span>
                             </i>
                         </FooterLink>
-                        <FooterLink href="#">
-                            <i className="fab fa-instagram">
-                                <span style={{ marginLeft: "10px" }}>
-                                    Instagram
-                                </span>
-                            </i>
-                        </FooterLink>
+                        
                        
                         <FooterLink href="#">
                             <i className="fab fa-youtube">
@@ -50,7 +44,7 @@ return(
             </Container>
         </Box>
                 
-         
+        </div>
 </div>
             );
 
