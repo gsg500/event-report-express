@@ -6,7 +6,7 @@ import ListGroupItem from 'react-bootstrap/ListGroupItem';
 function MenuPrincipal(){
     return(      
       <>
-<Card style={{ width: '18rem' }}>
+<Card style={{ width: '12rem' }} bg="light">
   <Card.Body>
     <img
           alt=""
@@ -17,19 +17,18 @@ function MenuPrincipal(){
         />
   </Card.Body>
   <ListGroup className="list-group-flush">
-    <ListGroupItem>    <Card.Link href="#">Card Link</Card.Link> </ListGroupItem>
-    <ListGroupItem>    <Card.Link href="#">Card Link</Card.Link> </ListGroupItem>
-    <ListGroupItem>    <Card.Link href="#">Card Link</Card.Link> </ListGroupItem>
-    <ListGroupItem>    <Card.Link href="#">Card Link</Card.Link> </ListGroupItem>
-    <ListGroupItem>    <Card.Link href="#">Card Link</Card.Link> </ListGroupItem>
-    <ListGroupItem>    <Card.Link href="#">Card Link</Card.Link> </ListGroupItem>
+    <ListGroupItem>INDICES</ListGroupItem>
+    <ListGroupItem>RISCO BRAZIL:</ListGroupItem>
+    <ListGroupItem>SPCS:</ListGroupItem>
+    <ListGroupItem>SELIC: </ListGroupItem>
+    <ListGroupItem> </ListGroupItem>
   </ListGroup>
   <Card.Body>
     <img
           alt=""
           src="https://github.com/gsg500/imgs/blob/master/bmrdp1.fw.png?raw=true"
           width="160"
-          height="250"
+          height="236"
           className="d-inline-block align-top"
         />
   </Card.Body>
