@@ -8,44 +8,40 @@ function CardsHome(){
       <>
 <CardGroup>
   <Card>
-    <Card.Img variant="top" width="243" height="160" src="https://github.com/gsg500/imgs/blob/master/icard1.png?raw=true"/>
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
+       <Card.Body>
+      <Card.Title>INDICE 1</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
-      </Card.Text>
-      <Button variant="primary">Go somewhere</Button>
+      This is a wider card with supporting text below as a natural lead-in to
+        additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to
+        additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to
+        additional.
+      </Card.Text>      
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small className="text-muted"><Button variant="secondary">Emitir Ordem</Button></small>
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" width="243" height="160" src="https://github.com/gsg500/imgs/blob/master/icard2.png?raw=true" />
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
+       <Card.Body>
+      <Card.Title>INDICE 2</Card.Title>
       <Card.Text>
         This card has supporting text below as a natural lead-in to additional
         content.{' '}
       </Card.Text>
-      <Button variant="primary">Go somewhere</Button>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small className="text-muted"><Button variant="secondary">Emitir Ordem</Button></small>
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" width="243" height="160" src="https://github.com/gsg500/imgs/blob/master/icard3.png?raw=true" />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>INDICE 3</Card.Title>
       <Card.Text>
         This is a wider card with supporting text .....
-      </Card.Text>
-      <Button variant="primary">Go somewhere</Button>
+      </Card.Text>   
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small className="text-muted"><Button variant="secondary">Emitir Ordem</Button></small>
     </Card.Footer>
   </Card>
 </CardGroup>
