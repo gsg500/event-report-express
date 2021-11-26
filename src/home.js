@@ -5,17 +5,16 @@ import Col from 'react-bootstrap/Col';
 import Pagehome from "./CG/Pagehome";
 import MenuPrincipal from "./CG/MenuPrincipal";
 
-function Home(){
-    
+function Home(){    
     return(
        <div>
 <Container>
+  <br/>
   <Row>
     <Col sm={2}><MenuPrincipal /></Col>
     <Col sm={10}><Pagehome /></Col>
 
   </Row></Container>
-
        </div>         
     )
 }
