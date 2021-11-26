@@ -5,6 +5,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Badge from 'react-bootstrap/Badge';
+import { Link } from "react-router-dom";
 
 function CardsHome(){
   const [valorBtc, setBtcValor] = useState(0);
@@ -60,8 +61,14 @@ axios({
       </Card.Text>      
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted"><Button variant="secondary">ORDEM DE COMPRA <Badge bg="danger"> BTC$ {valorBtc}</Badge>
-  <span className="visually-hidden"></span></Button></small>
+      <small className="text-muted">
+      
+      <Link to="/btc">
+      <Button variant="secondary">ORDEM DE COMPRA <Badge bg="danger"> BTC$ {valorBtc}</Badge>
+      <span className="visually-hidden"></span></Button>
+      </Link>
+  
+      </small>
     </Card.Footer>
   </Card>
   <Card>
@@ -74,8 +81,14 @@ axios({
     </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted"><Button variant="secondary">ORDEM DE COMPRA <Badge bg="danger"> ETH$ {valorETH}</Badge>
-  <span className="visually-hidden"></span></Button></small>
+      <small className="text-muted">
+      
+      <Link to="/eth">
+      <Button variant="secondary">ORDEM DE COMPRA <Badge bg="danger"> ETH$ {valorETH}</Badge>
+      <span className="visually-hidden"></span></Button>
+      </Link>
+  
+  </small>
     </Card.Footer>
   </Card>
   <Card>
@@ -88,9 +101,14 @@ axios({
       </Card.Text>   
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">      
-      <Button variant="secondary">ORDEM DE COMPRA <Badge bg="danger"> LTC$ {valorLTC}</Badge>
-  <span className="visually-hidden"></span></Button> </small>      
+      <small className="text-muted">
+      
+  <Link to="/ltc">          
+  <Button variant="secondary">ORDEM DE COMPRA <Badge bg="danger"> LTC$ {valorLTC}</Badge>
+  <span className="visually-hidden"></span></Button>
+  </Link>
+
+   </small>      
     </Card.Footer>
   </Card>
 </CardGroup>

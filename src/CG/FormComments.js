@@ -2,6 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import FormFieldComments from "./FormFieldComments";
 import SelectInput from "./SelectInput";
+import Alert from 'react-bootstrap/Alert'
 
 function FormComments() {
   const [formData, setFormData] = useState({ 
@@ -29,7 +30,7 @@ function FormComments() {
         setIsSending(false);
       });
   }
-
+  
   return (
     <div>
     <form onSubmit={handleSubmit}>
@@ -74,18 +75,25 @@ function FormComments() {
         value={formData.texto}
         required 
       />
-
      
       {/* botão 'submit' */}
       <div className="mt-3 text-end">
         <button disabled={isSending} type="submit" className="btn btn-primary">
           {isSending ? (
+            <>
             <span
               className="spinner-border spinner-border-sm me-2"
               role="status"
               aria-hidden="true"
             ></span>
-          ) : null}
+            <Alert variant="dark" dismissible>
+           <Alert.Heading>Mensagem gravada com sucesso</Alert.Heading>
+          <p>
+           ...
+          </p>
+      </Alert> 
+      </>
+       ) : null}
           Enviar
         </button>
       </div>
