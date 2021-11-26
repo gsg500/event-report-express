@@ -16,8 +16,8 @@ function App() {
         <Route path="/eth" element={<ETH />} />
         <Route path="/ltc" element={<LTC />} />
         <Route path="/contato" element={<Contato />} />
-        <Route path="/contato" element={<Gerenciador />} />
-        <Route path="/contato" element={<SoliPendentes />} />
+        <Route path="/gerenciador" element={<Gerenciador />} />
+        <Route path="/pendentes" element={<SoliPendentes />} />
       </Routes>
     </div>
   );
