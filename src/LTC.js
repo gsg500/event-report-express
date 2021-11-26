@@ -2,7 +2,7 @@ import React from "react";
 function LTC(){
     return(
         <div>
-        -ltc
+        Indisponivel
         </div>
     )
 

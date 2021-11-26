@@ -63,7 +63,7 @@ axios({
     <Card.Footer>
       <small className="text-muted">
       
-      <Link to="/btc">
+      <Link to="/odm">
       <Button variant="secondary">ORDEM DE COMPRA <Badge bg="danger"> BTC$ {valorBtc}</Badge>
       <span className="visually-hidden"></span></Button>
       </Link>
