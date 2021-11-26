@@ -8,21 +8,21 @@ import { Link } from "react-router-dom";
 function BarraTop(){
     return(      
       <>
-      <Navbar className="border-top" bg="secondary" variant="light">
+      <Navbar className="border-top" bg="light" variant="light">
       <Navbar.Brand href="#home">         
       </Navbar.Brand>
       <Navbar.Collapse className="justify-content-end">
 <ButtonGroup aria-label="Basic example">
   <Link to="/pendentes"> 
-  <Button variant="secondary">SOLICITAÇÕES PENDENTES <Badge bg="danger"> 0</Badge></Button>
+  <Button variant="light">SOLICITAÇÕES PENDENTES <Badge bg="danger"> 0</Badge></Button>
   </Link>
   
   <Link to="/gerenciador">
-  <Button variant="secondary">GERENCIAR PEDIDOS</Button>
+  <Button variant="light">GERENCIAR PEDIDOS</Button>
   </Link>
 
   <Link to="/contato">
-  <Button variant="secondary">CONTATO</Button>
+  <Button variant="light">CONTATO</Button>
   </Link>
 
 </ButtonGroup> 
