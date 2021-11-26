@@ -14,8 +14,9 @@ function BtcForm(props) {
 
   async function handleSubmit(event) {
     event.preventDefault();    
-    const response = await axios.post(
+    await axios.post(
       "https://ironrest.herokuapp.com/btc-brl",
+ 
       state
     );
 
